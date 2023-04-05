@@ -1,0 +1,54 @@
+""create a component"""
+
+import { StyleSheet, View } from "react-native";
+
+function AllExpenses() {
+  return(
+    pass
+  );
+};
+
+export default AllExpenses;
+
+const styles = StyleSheet.create({
+
+});
+
+
+""Rect Navigation package instalation and all the depemdencies"""
+npm install @react-navigation/native
+
+npx expo install react-native-screens react-native-safe-area-context
+
+
+"""Navigators instalation (Native Stack Navigator and Bottom Tab Navigator)"""
+npm install @react-navigation/native-stack
+
+npm install @react-navigation/bottom-tabs
+
+
+"""to remove a navigator header"""
+
+options={{
+  headerShown: false,
+}}
+
+
+the reduce() method is a javascript method that
+can be executed on arrays and allows us to combine
+multiple values in an array in to a single value
+
+for example
+
+const expensesSum = expenses.reduce((sum, expense) => {
+    return (
+      sum + expense.amount
+    );
+  }, 0);
+
+
+"""toFixed"""
+toFixed is a javasript command for rounding numbers
+
+expamle: 
+toFixed(2) __this will round a decimal number with 2 decimal points
